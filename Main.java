@@ -1,7 +1,7 @@
 /*
-List of other classes and methods that we need to create
+List of other classes and methods that we need to create (38 total methods)
 
-Room
+Room (13 methods)
  - NoArgsConstructor
  - Room(String _name)
  - getCharacter()
@@ -16,7 +16,7 @@ Room
  - setName(String _name)
  - toString() // returns the description
  
-Npc
+Npc (8 methods)
  - NoArgsConstructor
  - Npc(String _name, String _description)
  - getName
@@ -26,7 +26,7 @@ Npc
  - setSpeech
  - toString() // returns the description
  
-Enemy extends Npc
+Enemy extends Npc (7 methods)
  - NoArgsConstructor
  - Enemy(String _name, String _description)
  - String getAttackName()
@@ -35,7 +35,7 @@ Enemy extends Npc
  - void loseHealth(int h)
  - void setAttackName()
 
-Item
+Item (10 methods)
  - NoArgsConstructor
  - Item(String _name, String _description)
  - getMagicType()
