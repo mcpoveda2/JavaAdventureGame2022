@@ -1,51 +1,55 @@
 /*
-List of other classes and methods that we need to create (38 total methods)
+List of other classes and methods that we need to create (42 total tasks)
 
-Room (13 methods)
- - NoArgsConstructor
- - Room(String _name)
- - getCharacter()
- - getItem()
- - getLocationTo(String direction)
- - getName()
- - getPossibleDirections()
- - linkRoom(Room r, String direction)
- - setCharacter(Npc character)
- - setDescription(String d)
- - setItem(Item i)
- - setName(String _name)
- - toString() // returns the description
+Room (14 tasks)
+ - private instance vars for name, description, character, roomItem, Room north, Room south, Room east, Room west
+ + NoArgsConstructor
+ + Room(String _name)
+ + Npc getCharacter()
+ + Item getItem()
+ + Room getLocationTo(String direction)
+ + String getName()
+ + String getPossibleDirections()
+ + void linkRoom(Room r, String direction)
+ + void setCharacter(Npc character)
+ + void setDescription(String d)
+ + void setItem(Item i)
+ + void setName(String _name)
+ + toString() // returns the description
  
-Npc (8 methods)
- - NoArgsConstructor
- - Npc(String _name, String _description)
- - getName
- - getSpeech
- - setDescription(String d)
- - setName(String _name)
- - setSpeech
- - toString() // returns the description
+Npc (9 tasks)
+ - private instance vars for name, speech, description
+ + NoArgsConstructor
+ + Npc(String _name, String _description)
+ + String getName
+ + String getSpeech
+ + void setDescription(String d)
+ + void setName(String _name)
+ + void setSpeech
+ + toString() // returns the description
  
-Enemy extends Npc (7 methods)
- - NoArgsConstructor
- - Enemy(String _name, String _description)
- - String getAttackName()
- - int getHealth
- - int getMagicWeakness()
- - void loseHealth(int h)
- - void setAttackName()
+Enemy extends Npc (8 tasks)
+ - private instance vars for health, int magicWeakness, attackName
+ + NoArgsConstructor
+ + Enemy(String _name, String _description)
+ + String getAttackName()
+ + int getHealth
+ + int getMagicWeakness()
+ + void loseHealth(int h)
+ + void setAttackName()
 
-Item (10 methods)
- - NoArgsConstructor
- - Item(String _name, String _description)
- - getMagicType()
- - getName()
- - getStrength()
- - setDescription(String d)
- - setName(String _name)
- - isBroken()
- - toString() // returns the description
- - weaken()
+Item (11 tasks)
+ - private instance vars for name, strength, description, int magicType, Random rng
+ + NoArgsConstructor
+ + Item(String _name, String _description)
+ + int getMagicType()
+ + String getName()
+ + int getStrength()
+ + void setDescription(String d)
+ + void setName(String _name)
+ + isBroken()
+ + toString() // returns the description
+ + void weaken()
 
 
 Map:
