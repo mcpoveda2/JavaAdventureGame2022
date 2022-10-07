@@ -1,12 +1,13 @@
 /*
-Enemy extends Npc
- - NoArgsConstructor
- - Enemy(String _name, String _description)
- - String getAttackName()
- - int getHealth
- - int getMagicWeakness()
- - void loseHealth(int h)
- - void setAttackName()
+Enemy extends Npc (8 tasks)
+ dibs LB - private instance vars for health, int magicWeakness, attackName
+ dibs LB + NoArgsConstructor
+ dibs LB + Enemy(String _name, String _description)
+ dibs LB + String getAttackName()
+ dibs AC + int getHealth
+ dibs AC + int getMagicWeakness()
+ dibs AC + void loseHealth(int h)
+ dibs AC + void setAttackName()
 */
 public class Enemy extends Npc
 {
